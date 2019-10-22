@@ -5,4 +5,5 @@ function __export(m) {
 Object.defineProperty(exports, "__esModule", { value: true });
 __export(require("./common"));
 __export(require("./providers"));
+__export(require("./client"));
 __export(require("./jsforce.module"));
