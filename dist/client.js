@@ -9,10 +9,10 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const jsforce = require("jsforce");
+const jsforce_1 = require("jsforce");
 class Client {
     constructor(config) {
-        this.conn = new jsforce.Connection(config.options);
+        this.conn = new jsforce_1.Connection(config.options);
         this.initialization = this.init(config.username, config.password, config.security_token);
     }
     init(username, password, security_token, callback) {
