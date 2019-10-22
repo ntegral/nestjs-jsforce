@@ -3,6 +3,6 @@ function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
 Object.defineProperty(exports, "__esModule", { value: true });
-__export(require("./common"));
-__export(require("./providers"));
-__export(require("./jsforce.module"));
+__export(require("./jsforce.contants"));
+__export(require("./jsforce.decorator"));
+__export(require("./jsforce.util"));

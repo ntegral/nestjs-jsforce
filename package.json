@@ -7,7 +7,7 @@
     }
   ],
   "name": "@ntegral/nestjs-force",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Provides an injectable salesforce client to provide features to the Salesforce API",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",

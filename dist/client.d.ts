@@ -5,5 +5,5 @@ export declare class Client {
     initialization: Promise<any>;
     constructor(config: JsForceConfigOptions);
     init(username: string, password: string, security_token?: string, callback?: (err: Error, result: jsforce.UserInfo) => {}): Promise<void>;
-    query(): void;
+    logout(revoke?: boolean, callback?: (err: Error, res: undefined) => {}): Promise<void>;
 }

@@ -19,15 +19,16 @@ class Client {
         return __awaiter(this, void 0, void 0, function* () {
             if (security_token) {
                 password += security_token;
-                console.log('password+security_token', password);
             }
             yield this.conn.login(username, password).catch((err) => {
                 return err;
             });
         });
     }
-    query() {
-        this.conn.sobject("Recipe__c").select().then;
+    logout(revoke, callback) {
+        return __awaiter(this, void 0, void 0, function* () {
+            return yield this.conn.logout();
+        });
     }
 }
 exports.Client = Client;
