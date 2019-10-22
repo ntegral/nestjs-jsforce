@@ -1,0 +1,60 @@
+{
+  "contributors": [
+    {
+      "name": "Dexter Hardy",
+      "email": "dexter.hardy@ntegral.com",
+      "url": "http://www.ntegral.com"
+    }
+  ],
+  "name": "@ntegral/nestjs-force",
+  "version": "1.0.0",
+  "description": "Provides an injectable salesforce client to provide features to the Salesforce API",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "clean": "rm -rf dist",
+    "format": "prettier --write \"lib/**/*.ts\"",
+    "publish:npm": "npm publish --access public",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:cov": "jest --coverage",
+    "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand"
+  },
+  "keywords": [
+    "nestjs",
+    "salesforce",
+    "node"
+  ],
+  "author": "Dexter Hardy",
+  "license": "ISC",
+  "devDependencies": {
+    "@nestjs/common": "^6.8.3",
+    "@nestjs/core": "^6.8.3",
+    "@nestjs/testing": "^6.8.3",
+    "@types/jest": "^24.0.19",
+    "@types/jsforce": "^1.9.10",
+    "jest": "^24.9.0",
+    "prettier": "^1.18.2",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^6.5.3",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "jsforce": "^1.9.2"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
+    "rootDir": "lib",
+    "testRegex": ".spec.ts$",
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest"
+    },
+    "coverageDirectory": "../coverage",
+    "testEnvironment": "node"
+  }
+}
