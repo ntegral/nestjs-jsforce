@@ -1,4 +1,4 @@
-[![npm version](http://img.shields.io/npm/v/REPO.svg?style=flat)](https://www.npmjs.com/package/@ntegral/nestjs-force)
+[![npm version](http://img.shields.io/npm/v/@ntegral/nestjs-jsforce.svg?style=flat)](https://www.npmjs.com/package/@ntegral/nestjs-force)
 [![Codecov Coverage](https://img.shields.io/codecov/c/github/ntegral/nestjs-jsforce/master.svg?style=flat-square)](https://codecov.io/gh/ntegral/nestjs-jsforce)
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
