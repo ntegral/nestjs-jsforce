@@ -7,7 +7,7 @@
     }
   ],
   "name": "@ntegral/nestjs-force",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Provides an injectable salesforce client to provide features to the Salesforce API",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
@@ -27,7 +27,7 @@
     "node"
   ],
   "author": "Dexter Hardy",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@nestjs/common": "^6.8.3",
     "@nestjs/core": "^6.8.3",
