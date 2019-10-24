@@ -1,4 +1,4 @@
-[![Codecov Coverage](https://img.shields.io/codecov/c/github/ntegral/nestjs-jsforce/master>.svg?style=flat-square)](https://codecov.io/gh/ntegral/nestjs-jsforce)
+[![Codecov Coverage](https://img.shields.io/codecov/c/github/ntegral/nestjs-jsforce/master.svg?style=flat-square)](https://codecov.io/gh/ntegral/nestjs-jsforce)
 
 <p align="center">
   <h3 align="center">
