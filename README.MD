@@ -1,4 +1,6 @@
 [![Codecov Coverage](https://img.shields.io/codecov/c/github/ntegral/nestjs-jsforce/master.svg?style=flat-square)](https://codecov.io/gh/ntegral/nestjs-jsforce)
+[![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
+
 
 <p align="center">
   <h3 align="center">
