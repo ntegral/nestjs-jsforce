@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1571757353298" clover="3.2.0">
-  <project timestamp="1571757353298" name="All files">
-    <metrics statements="45" coveredstatements="44" conditionals="12" coveredconditionals="11" methods="15" coveredmethods="14" elements="72" coveredelements="69" complexity="0" loc="45" ncloc="45" packages="3" files="8" classes="8"/>
+<coverage generated="1573134185900" clover="3.2.0">
+  <project timestamp="1573134185900" name="All files">
+    <metrics statements="50" coveredstatements="48" conditionals="12" coveredconditionals="11" methods="16" coveredmethods="14" elements="78" coveredelements="73" complexity="0" loc="50" ncloc="50" packages="3" files="9" classes="9"/>
     <package name="lib">
       <metrics statements="33" coveredstatements="32" conditionals="12" coveredconditionals="11" methods="13" coveredmethods="12"/>
-      <file name="client.ts" path="/Users/dhardy/Projects/npm/nestjs_force/lib/client.ts">
+      <file name="client.ts" path="/Users/dhardy/Projects/npm/nestjs-jsforce/lib/client.ts">
         <metrics statements="9" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="3"/>
         <line num="1" count="2" type="stmt"/>
         <line num="4" count="2" type="stmt"/>
@@ -16,7 +16,7 @@
         <line num="20" count="1" type="stmt"/>
         <line num="26" count="0" type="stmt"/>
       </file>
-      <file name="jsforce-core.module.ts" path="/Users/dhardy/Projects/npm/nestjs_force/lib/jsforce-core.module.ts">
+      <file name="jsforce-core.module.ts" path="/Users/dhardy/Projects/npm/nestjs-jsforce/lib/jsforce-core.module.ts">
         <metrics statements="19" coveredstatements="19" conditionals="10" coveredconditionals="9" methods="7" coveredmethods="7"/>
         <line num="1" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -38,7 +38,7 @@
         <line num="66" count="1" type="stmt"/>
         <line num="67" count="1" type="stmt"/>
       </file>
-      <file name="jsforce.module.ts" path="/Users/dhardy/Projects/npm/nestjs_force/lib/jsforce.module.ts">
+      <file name="jsforce.module.ts" path="/Users/dhardy/Projects/npm/nestjs-jsforce/lib/jsforce.module.ts">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -48,18 +48,26 @@
       </file>
     </package>
     <package name="lib.common">
-      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="index.ts" path="/Users/dhardy/Projects/npm/nestjs_force/lib/common/index.ts">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <metrics statements="13" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="index.ts" path="/Users/dhardy/Projects/npm/nestjs-jsforce/lib/common/index.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
       </file>
-      <file name="jsforce.contants.ts" path="/Users/dhardy/Projects/npm/nestjs_force/lib/common/jsforce.contants.ts">
+      <file name="jsforce.contants.ts" path="/Users/dhardy/Projects/npm/nestjs-jsforce/lib/common/jsforce.contants.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
       </file>
-      <file name="jsforce.util.ts" path="/Users/dhardy/Projects/npm/nestjs_force/lib/common/jsforce.util.ts">
+      <file name="jsforce.decorator.ts" path="/Users/dhardy/Projects/npm/nestjs-jsforce/lib/common/jsforce.decorator.ts">
+        <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+      <file name="jsforce.util.ts" path="/Users/dhardy/Projects/npm/nestjs-jsforce/lib/common/jsforce.util.ts">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="2" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
@@ -69,11 +77,11 @@
     </package>
     <package name="lib.providers">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="index.ts" path="/Users/dhardy/Projects/npm/nestjs_force/lib/providers/index.ts">
+      <file name="index.ts" path="/Users/dhardy/Projects/npm/nestjs-jsforce/lib/providers/index.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
       </file>
-      <file name="jsforce.providers.ts" path="/Users/dhardy/Projects/npm/nestjs_force/lib/providers/jsforce.providers.ts">
+      <file name="jsforce.providers.ts" path="/Users/dhardy/Projects/npm/nestjs-jsforce/lib/providers/jsforce.providers.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="2" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
