@@ -1,11 +1,8 @@
 import { Test } from '@nestjs/testing';
 import { JsForceModule } from "./jsforce.module";
 import { JsForceConfigOptions, JsForceConfigOptionsFactory } from "./common/interfaces";
-import { JSFORCE_MODULE_OPTIONS, JSFORCE_TOKEN } from "./common";
-import { config } from "rxjs";
-import { async } from "rxjs/internal/scheduler/async";
+import { JSFORCE_TOKEN } from "./common";
 import { Client } from './client';
-import { expression } from '@babel/template';
 
 describe('JsForceModule', () => {
     let config: JsForceConfigOptions = {
