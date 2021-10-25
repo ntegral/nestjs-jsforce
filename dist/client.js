@@ -9,6 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.Client = void 0;
 const jsforce_1 = require("jsforce");
 class Client {
     constructor(config) {

@@ -7,10 +7,14 @@
     }
   ],
   "name": "@ntegral/nestjs-force",
-  "version": "1.0.8",
+  "version": "2.0.0",
   "description": "Provides an injectable salesforce client to provide features to the Salesforce API",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntegral/nestjs-force"
+  },
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "clean": "rm -rf dist",
@@ -29,21 +33,21 @@
   "author": "Dexter Hardy",
   "license": "MIT",
   "devDependencies": {
-    "@nestjs/common": "^6.8.3",
-    "@nestjs/core": "^6.8.3",
-    "@nestjs/testing": "^6.8.3",
-    "@types/jest": "^24.9.1",
-    "@types/jsforce": "^1.9.15",
-    "codecov": "^3.6.5",
-    "jest": "^24.9.0",
-    "prettier": "^1.19.1",
+    "@nestjs/common": "^8.0.0",
+    "@nestjs/core": "^8.0.0",
+    "@nestjs/testing": "^8.0.0",
+    "@types/jest": "^27.0.1",
+    "@types/jsforce": "^1.9.35",
+    "codecov": "^3.8.3",
+    "jest": "^27.2.5",
+    "prettier": "^2.3.2",
     "reflect-metadata": "^0.1.13",
-    "rxjs": "^6.5.3",
-    "ts-jest": "^24.3.0",
-    "typescript": "^3.8.3"
+    "rxjs": "^7.2.0",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.5"
   },
   "dependencies": {
-    "jsforce": "^1.9.3"
+    "jsforce": "^1.10.1"
   },
   "jest": {
     "moduleFileExtensions": [

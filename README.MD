@@ -22,6 +22,9 @@
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
 
+## NestJS 8+ Support
+Version 2.x.x will support NestJS 8+. If you need support for NestJS 7 or below please continue to use Version 1.x.x.  Thanks for you support!
+
 ## About
 
 `@ntegral/nestjs-force` implements a module, `JsForceModule`, which when imported into

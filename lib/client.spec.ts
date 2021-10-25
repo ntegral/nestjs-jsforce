@@ -5,10 +5,10 @@ import { JsForceConfigOptions } from "./common/interfaces";
 describe('JsForce Client', () => {
     let client: Client;
     let config: JsForceConfigOptions = {
-        username: 'dexter.hardy@lvngbook.com.sb01',
-        password: 'C0n$ult!ng',
+        username: 'someuser@sfdx.com.stg02',
+        password: 'SomePassword',
         options: {
-            loginUrl: 'https://lvngbook--sb01.my.salesforce.com/'
+            loginUrl: 'https://sfdx--stg02.my.salesforce.com/'
         }
     };
 
@@ -20,7 +20,7 @@ describe('JsForce Client', () => {
     });
 
     describe('constructor with security_token', () => {
-        config.security_token = '8jMpmFUnf2DNJCISYXBY5V6ju';
+        config.security_token = 'HDL9olFmXa2FxxxxQDKDoK54';
         client = new Client(config);
         it('client should be initialized with security_token', () => {
             expect(client.conn).toBeInstanceOf(jsforce.Connection);

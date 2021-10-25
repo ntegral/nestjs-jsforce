@@ -1,91 +1,150 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1573134185900" clover="3.2.0">
-  <project timestamp="1573134185900" name="All files">
-    <metrics statements="50" coveredstatements="48" conditionals="12" coveredconditionals="11" methods="16" coveredmethods="14" elements="78" coveredelements="73" complexity="0" loc="50" ncloc="50" packages="3" files="9" classes="9"/>
+<coverage generated="1635178123582" clover="3.2.0">
+  <project timestamp="1635178123582" name="All files">
+    <metrics statements="109" coveredstatements="98" conditionals="110" coveredconditionals="69" methods="42" coveredmethods="35" elements="261" coveredelements="202" complexity="0" loc="109" ncloc="109" packages="3" files="9" classes="9"/>
     <package name="lib">
-      <metrics statements="33" coveredstatements="32" conditionals="12" coveredconditionals="11" methods="13" coveredmethods="12"/>
-      <file name="client.ts" path="/Users/dhardy/Projects/npm/nestjs-jsforce/lib/client.ts">
-        <metrics statements="9" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="3"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="9" count="6" type="stmt"/>
-        <line num="11" count="6" type="stmt"/>
-        <line num="15" count="6" type="cond" truecount="2" falsecount="0"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="18" count="6" type="stmt"/>
-        <line num="20" count="1" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
-      </file>
-      <file name="jsforce-core.module.ts" path="/Users/dhardy/Projects/npm/nestjs-jsforce/lib/jsforce-core.module.ts">
-        <metrics statements="19" coveredstatements="19" conditionals="10" coveredconditionals="9" methods="7" coveredmethods="7"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
+      <metrics statements="68" coveredstatements="62" conditionals="78" coveredconditionals="47" methods="31" coveredmethods="27"/>
+      <file name="client.ts" path="/Users/dhardy/Projects/npm/2021/nestjs-jsforce/lib/client.ts">
+        <metrics statements="20" coveredstatements="17" conditionals="13" coveredconditionals="12" methods="13" coveredmethods="10"/>
+        <line num="2" count="2" type="cond" truecount="3" falsecount="0"/>
+        <line num="3" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="4" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="6" type="cond" truecount="2" falsecount="0"/>
         <line num="11" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
         <line num="13" count="2" type="stmt"/>
-        <line num="21" count="3" type="stmt"/>
-        <line num="24" count="2" type="stmt"/>
-        <line num="27" count="3" type="stmt"/>
-        <line num="38" count="3" type="cond" truecount="4" falsecount="0"/>
-        <line num="39" count="2" type="stmt"/>
-        <line num="41" count="1" type="stmt"/>
-        <line num="42" count="1" type="stmt"/>
-        <line num="54" count="3" type="cond" truecount="2" falsecount="0"/>
-        <line num="55" count="2" type="stmt"/>
-        <line num="61" count="1" type="stmt"/>
-        <line num="64" count="1" type="stmt"/>
-        <line num="66" count="1" type="stmt"/>
-        <line num="67" count="1" type="stmt"/>
+        <line num="16" count="6" type="stmt"/>
+        <line num="17" count="6" type="stmt"/>
+        <line num="20" count="6" type="stmt"/>
+        <line num="21" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="24" count="6" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
       </file>
-      <file name="jsforce.module.ts" path="/Users/dhardy/Projects/npm/nestjs-jsforce/lib/jsforce.module.ts">
-        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="9" count="2" type="stmt"/>
-        <line num="16" count="3" type="stmt"/>
+      <file name="jsforce-core.module.ts" path="/Users/dhardy/Projects/npm/2021/nestjs-jsforce/lib/jsforce-core.module.ts">
+        <metrics statements="34" coveredstatements="32" conditionals="43" coveredconditionals="27" methods="15" coveredmethods="14"/>
+        <line num="2" count="1" type="cond" truecount="3" falsecount="0"/>
+        <line num="3" count="1" type="cond" truecount="1" falsecount="3"/>
+        <line num="4" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="5" count="0" type="cond" truecount="0" falsecount="8"/>
+        <line num="6" count="1" type="cond" truecount="1" falsecount="2"/>
+        <line num="8" count="1" type="cond" truecount="3" falsecount="0"/>
+        <line num="9" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="10" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="33" count="3" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="38" count="3" type="stmt"/>
+        <line num="46" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="47" count="2" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="59" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="60" count="2" type="stmt"/>
+        <line num="66" count="1" type="stmt"/>
+        <line num="69" count="1" type="stmt"/>
+        <line num="71" count="1" type="stmt"/>
+        <line num="76" count="1" type="stmt"/>
+        <line num="80" count="1" type="stmt"/>
+      </file>
+      <file name="jsforce.module.ts" path="/Users/dhardy/Projects/npm/2021/nestjs-jsforce/lib/jsforce.module.ts">
+        <metrics statements="14" coveredstatements="13" conditionals="22" coveredconditionals="8" methods="3" coveredmethods="3"/>
+        <line num="2" count="1" type="cond" truecount="3" falsecount="0"/>
+        <line num="3" count="1" type="cond" truecount="1" falsecount="3"/>
+        <line num="4" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="5" count="0" type="cond" truecount="0" falsecount="8"/>
+        <line num="6" count="1" type="cond" truecount="1" falsecount="2"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
       </file>
     </package>
     <package name="lib.common">
-      <metrics statements="13" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
-      <file name="index.ts" path="/Users/dhardy/Projects/npm/nestjs-jsforce/lib/common/index.ts">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+      <metrics statements="27" coveredstatements="24" conditionals="16" coveredconditionals="11" methods="6" coveredmethods="4"/>
+      <file name="index.ts" path="/Users/dhardy/Projects/npm/2021/nestjs-jsforce/lib/common/index.ts">
+        <metrics statements="11" coveredstatements="9" conditionals="16" coveredconditionals="11" methods="4" coveredmethods="3"/>
+        <line num="2" count="1" type="cond" truecount="4" falsecount="1"/>
+        <line num="3" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="4" count="18" type="stmt"/>
+        <line num="6" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="9" count="1" type="cond" truecount="3" falsecount="0"/>
+        <line num="10" count="4" type="cond" truecount="3" falsecount="1"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+      </file>
+      <file name="jsforce.contants.ts" path="/Users/dhardy/Projects/npm/2021/nestjs-jsforce/lib/common/jsforce.contants.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
-      </file>
-      <file name="jsforce.contants.ts" path="/Users/dhardy/Projects/npm/nestjs-jsforce/lib/common/jsforce.contants.ts">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-      </file>
-      <file name="jsforce.decorator.ts" path="/Users/dhardy/Projects/npm/nestjs-jsforce/lib/common/jsforce.decorator.ts">
-        <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
       </file>
-      <file name="jsforce.util.ts" path="/Users/dhardy/Projects/npm/nestjs-jsforce/lib/common/jsforce.util.ts">
-        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="jsforce.decorator.ts" path="/Users/dhardy/Projects/npm/2021/nestjs-jsforce/lib/common/jsforce.decorator.ts">
+        <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
-        <line num="5" count="4" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+      </file>
+      <file name="jsforce.util.ts" path="/Users/dhardy/Projects/npm/2021/nestjs-jsforce/lib/common/jsforce.util.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
         <line num="6" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
       </file>
     </package>
     <package name="lib.providers">
-      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="index.ts" path="/Users/dhardy/Projects/npm/nestjs-jsforce/lib/providers/index.ts">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+      <metrics statements="14" coveredstatements="12" conditionals="16" coveredconditionals="11" methods="5" coveredmethods="4"/>
+      <file name="index.ts" path="/Users/dhardy/Projects/npm/2021/nestjs-jsforce/lib/providers/index.ts">
+        <metrics statements="9" coveredstatements="7" conditionals="16" coveredconditionals="11" methods="4" coveredmethods="3"/>
+        <line num="2" count="1" type="cond" truecount="4" falsecount="1"/>
+        <line num="3" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="6" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="9" count="1" type="cond" truecount="3" falsecount="0"/>
+        <line num="10" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
       </file>
-      <file name="jsforce.providers.ts" path="/Users/dhardy/Projects/npm/nestjs-jsforce/lib/providers/jsforce.providers.ts">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="jsforce.providers.ts" path="/Users/dhardy/Projects/npm/2021/nestjs-jsforce/lib/providers/jsforce.providers.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
-        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
       </file>
     </package>
   </project>

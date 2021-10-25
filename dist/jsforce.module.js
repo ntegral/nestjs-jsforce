@@ -7,6 +7,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 var JsForceModule_1;
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.JsForceModule = void 0;
 const common_1 = require("@nestjs/common");
 const jsforce_core_module_1 = require("./jsforce-core.module");
 let JsForceModule = JsForceModule_1 = class JsForceModule {
@@ -24,6 +25,6 @@ let JsForceModule = JsForceModule_1 = class JsForceModule {
     }
 };
 JsForceModule = JsForceModule_1 = __decorate([
-    common_1.Module({})
+    (0, common_1.Module)({})
 ], JsForceModule);
 exports.JsForceModule = JsForceModule;

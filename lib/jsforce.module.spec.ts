@@ -6,10 +6,10 @@ import { Client } from './client';
 
 describe('JsForceModule', () => {
     let config: JsForceConfigOptions = {
-        username: 'dexter.hardy@testaccount.com.sb01',
-        password: 'somepassword',
+        username: 'someuser@sfdx.com.stg02',
+        password: 'SomePassword',
         options: {
-            loginUrl: 'https://someaccount--sb01.my.salesforce.com/'
+            loginUrl: 'https://sfdx--stg02.my.salesforce.com/'
         }
     };
 

@@ -16,12 +16,13 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 var JsForceCoreModule_1;
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.JsForceCoreModule = void 0;
 const common_1 = require("@nestjs/common");
 const providers_1 = require("./providers");
 const common_2 = require("./common");
 let JsForceCoreModule = JsForceCoreModule_1 = class JsForceCoreModule {
     static forRoot(options) {
-        const provider = providers_1.createJsForceProviders(options);
+        const provider = (0, providers_1.createJsForceProviders)(options);
         return {
             exports: [provider,],
             module: JsForceCoreModule_1,
@@ -32,7 +33,7 @@ let JsForceCoreModule = JsForceCoreModule_1 = class JsForceCoreModule {
         const provider = {
             inject: [common_2.JSFORCE_MODULE_OPTIONS],
             provide: common_2.JSFORCE_TOKEN,
-            useFactory: (options) => common_2.createJsForceClient(options),
+            useFactory: (options) => (0, common_2.createJsForceClient)(options),
         };
         return {
             exports: [provider],
@@ -73,7 +74,7 @@ let JsForceCoreModule = JsForceCoreModule_1 = class JsForceCoreModule {
     }
 };
 JsForceCoreModule = JsForceCoreModule_1 = __decorate([
-    common_1.Global(),
-    common_1.Module({})
+    (0, common_1.Global)(),
+    (0, common_1.Module)({})
 ], JsForceCoreModule);
 exports.JsForceCoreModule = JsForceCoreModule;
